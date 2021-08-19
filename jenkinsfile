@@ -3,7 +3,6 @@ pipeline {
 
   	stages {
 	  	stage ("Clone from GitHub"){
-	  	    agent { label 'main' }
 			    steps{
 					echo "cloning"
 					git branch: 'main',
