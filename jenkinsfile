@@ -11,5 +11,6 @@ pipeline {
                 echo 'Hello World'
                 git branch: 'main', credentialsId: 'c1f7b986-264a-46f9-a66d-424ec1168ed2', url: 'https://github.com/yawani/safozi.git'
             }
+        }
     }
 }
