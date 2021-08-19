@@ -8,12 +8,4 @@ pipeline {
             }
         }
     }
-    stages {
-        stage('build') {
-            steps {
-                echo 'build the app'
-            }
-        }
-    }
-    
 }
